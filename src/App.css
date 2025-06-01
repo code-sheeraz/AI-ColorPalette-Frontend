@@ -133,9 +133,9 @@ button:disabled {
     align-items: flex-end;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
     cursor: pointer;
-    height: 120px;
+    height: 70px;
     position: relative;
-    width: 120px;
+    width: 70px;
     border-radius: 12px;
     transition: transform 0.2s;
 }
