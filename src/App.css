@@ -130,17 +130,14 @@ button:disabled {
 }
 
 .color-bubble {
-  min-width: 80px;
-  padding: 14px 18px;
-  border-radius: 24px;
-  font-weight: 600;
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.15s ease;
-  user-select: none;
+    align-items: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    cursor: pointer;
+    height: 120px;
+    position: relative;
+    width: 120px;
+    border-radius: 12px;
+    transition: transform 0.2s;
 }
 
 .color-bubble:hover {
