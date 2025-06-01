@@ -13,7 +13,7 @@ function App() {
     setLoading(true);
     setCopiedIndex(null);
     try {
-      const response = await axios.post("http://localhost:5000/generate-colors", {
+      const response = await axios.post("https://ai-colorpalette-backend.onrender.com", {
         prompt,
       });
       setColors(response.data.colors);
