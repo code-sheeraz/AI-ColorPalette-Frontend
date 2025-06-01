@@ -13,9 +13,9 @@ function App() {
     setLoading(true);
     setCopiedIndex(null);
     try {
-      const response = await axios.post("https://ai-colorpalette-backend.onrender.com", {
-        prompt,
-      });
+      const response = await axios.post("https://ai-colorpalette-backend.onrender.com/generate-colors", {
+  prompt,
+});
       setColors(response.data.colors);
     } catch (error) {
       console.error("Error generating colors:", error);
